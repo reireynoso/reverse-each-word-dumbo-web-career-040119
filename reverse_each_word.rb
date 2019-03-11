@@ -4,5 +4,5 @@ def reverse_each_word(sentence)
   array_sentence.each do |letter|
     string << "#{letter} "
   end
-  puts string
+  return string
 end

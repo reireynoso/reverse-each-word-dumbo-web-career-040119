@@ -4,8 +4,7 @@ def reverse_each_word(sentence)
   array_sentence = sentence.split(" ")
   array_sentence.collect do |letter|
     letters = letter.reverse
-    example.push(letters) 
+    string.push(letters) 
   end
-  puts example[0].reverse
-  return example
+  return string
 end

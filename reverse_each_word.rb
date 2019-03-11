@@ -1,6 +1,6 @@
 def reverse_each_word(sentence) 
-  sentence.split(" ")
-  sentence.each do |letter|
+  array_sentence = sentence.split(" ")
+  array_sentence.each do |letter|
     puts letter
   end
 end

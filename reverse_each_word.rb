@@ -3,7 +3,8 @@ def reverse_each_word(sentence)
   example = []
   array_sentence = sentence.split(" ")
   array_sentence.collect do |letter|
-    example.push(letter) 
+    letters = letter.reverse
+    example.push(letters) 
   end
   puts example[0].reverse
   return example
